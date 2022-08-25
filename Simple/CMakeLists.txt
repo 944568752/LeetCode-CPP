@@ -4,7 +4,7 @@ project(Simple)
 set(CMAKE_CXX_STANDARD 23)
 
 # add_executable(Simple main.cpp diameterOfBinaryTree.cpp)
-add_executable(Simple diameterOfBinaryTree.cpp)
-
+# add_executable(Simple diameterOfBinaryTree.cpp mergeTrees.cpp)
+add_executable(Simple mergeTrees.cpp)
 
 

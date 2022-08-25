@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Simple.dir/diameterOfBinaryTree.cpp.o"
-  "CMakeFiles/Simple.dir/diameterOfBinaryTree.cpp.o.d"
-  "CMakeFiles/Simple.dir/main.cpp.o"
-  "CMakeFiles/Simple.dir/main.cpp.o.d"
+  "CMakeFiles/Simple.dir/mergeTrees.cpp.o"
+  "CMakeFiles/Simple.dir/mergeTrees.cpp.o.d"
   "Simple"
   "Simple.pdb"
 )

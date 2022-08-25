@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/Simple.dir/main.cpp.o CMakeFiles/Simple.dir/diameterOfBinaryTree.cpp.o -o Simple 
+/usr/bin/c++ -g CMakeFiles/Simple.dir/mergeTrees.cpp.o -o Simple 

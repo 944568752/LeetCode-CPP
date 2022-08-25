@@ -129,53 +129,29 @@ Simple/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simple.dir/build.make CMakeFiles/Simple.dir/build
 .PHONY : Simple/fast
 
-diameterOfBinaryTree.o: diameterOfBinaryTree.cpp.o
-.PHONY : diameterOfBinaryTree.o
+mergeTrees.o: mergeTrees.cpp.o
+.PHONY : mergeTrees.o
 
 # target to build an object file
-diameterOfBinaryTree.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simple.dir/build.make CMakeFiles/Simple.dir/diameterOfBinaryTree.cpp.o
-.PHONY : diameterOfBinaryTree.cpp.o
+mergeTrees.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simple.dir/build.make CMakeFiles/Simple.dir/mergeTrees.cpp.o
+.PHONY : mergeTrees.cpp.o
 
-diameterOfBinaryTree.i: diameterOfBinaryTree.cpp.i
-.PHONY : diameterOfBinaryTree.i
-
-# target to preprocess a source file
-diameterOfBinaryTree.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simple.dir/build.make CMakeFiles/Simple.dir/diameterOfBinaryTree.cpp.i
-.PHONY : diameterOfBinaryTree.cpp.i
-
-diameterOfBinaryTree.s: diameterOfBinaryTree.cpp.s
-.PHONY : diameterOfBinaryTree.s
-
-# target to generate assembly for a file
-diameterOfBinaryTree.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simple.dir/build.make CMakeFiles/Simple.dir/diameterOfBinaryTree.cpp.s
-.PHONY : diameterOfBinaryTree.cpp.s
-
-main.o: main.cpp.o
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simple.dir/build.make CMakeFiles/Simple.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-.PHONY : main.i
+mergeTrees.i: mergeTrees.cpp.i
+.PHONY : mergeTrees.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simple.dir/build.make CMakeFiles/Simple.dir/main.cpp.i
-.PHONY : main.cpp.i
+mergeTrees.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simple.dir/build.make CMakeFiles/Simple.dir/mergeTrees.cpp.i
+.PHONY : mergeTrees.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+mergeTrees.s: mergeTrees.cpp.s
+.PHONY : mergeTrees.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simple.dir/build.make CMakeFiles/Simple.dir/main.cpp.s
-.PHONY : main.cpp.s
+mergeTrees.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Simple.dir/build.make CMakeFiles/Simple.dir/mergeTrees.cpp.s
+.PHONY : mergeTrees.cpp.s
 
 # Help Target
 help:
@@ -186,12 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Simple"
-	@echo "... diameterOfBinaryTree.o"
-	@echo "... diameterOfBinaryTree.i"
-	@echo "... diameterOfBinaryTree.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... mergeTrees.o"
+	@echo "... mergeTrees.i"
+	@echo "... mergeTrees.s"
 .PHONY : help
 
 

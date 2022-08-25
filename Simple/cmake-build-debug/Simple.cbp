@@ -82,10 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/tmp/tmp.Ket0Nh1AIX/diameterOfBinaryTree.cpp">
-			<Option target="Simple"/>
-		</Unit>
-		<Unit filename="/tmp/tmp.Ket0Nh1AIX/main.cpp">
+		<Unit filename="/tmp/tmp.Ket0Nh1AIX/mergeTrees.cpp">
 			<Option target="Simple"/>
 		</Unit>
 		<Unit filename="/tmp/tmp.Ket0Nh1AIX/CMakeLists.txt">

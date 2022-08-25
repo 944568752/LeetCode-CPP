@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/tmp/tmp.Ket0Nh1AIX/diameterOfBinaryTree.cpp" "CMakeFiles/Simple.dir/diameterOfBinaryTree.cpp.o" "gcc" "CMakeFiles/Simple.dir/diameterOfBinaryTree.cpp.o.d"
-  "/tmp/tmp.Ket0Nh1AIX/main.cpp" "CMakeFiles/Simple.dir/main.cpp.o" "gcc" "CMakeFiles/Simple.dir/main.cpp.o.d"
+  "/tmp/tmp.Ket0Nh1AIX/mergeTrees.cpp" "CMakeFiles/Simple.dir/mergeTrees.cpp.o" "gcc" "CMakeFiles/Simple.dir/mergeTrees.cpp.o.d"
   )
 
 # Targets to which this target links.

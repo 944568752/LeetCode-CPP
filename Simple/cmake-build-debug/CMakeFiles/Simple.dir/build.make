@@ -69,47 +69,31 @@ include CMakeFiles/Simple.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Simple.dir/flags.make
 
-CMakeFiles/Simple.dir/main.cpp.o: CMakeFiles/Simple.dir/flags.make
-CMakeFiles/Simple.dir/main.cpp.o: ../main.cpp
-CMakeFiles/Simple.dir/main.cpp.o: CMakeFiles/Simple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.Ket0Nh1AIX/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Simple.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Simple.dir/main.cpp.o -MF CMakeFiles/Simple.dir/main.cpp.o.d -o CMakeFiles/Simple.dir/main.cpp.o -c /tmp/tmp.Ket0Nh1AIX/main.cpp
+CMakeFiles/Simple.dir/mergeTrees.cpp.o: CMakeFiles/Simple.dir/flags.make
+CMakeFiles/Simple.dir/mergeTrees.cpp.o: ../mergeTrees.cpp
+CMakeFiles/Simple.dir/mergeTrees.cpp.o: CMakeFiles/Simple.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.Ket0Nh1AIX/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Simple.dir/mergeTrees.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Simple.dir/mergeTrees.cpp.o -MF CMakeFiles/Simple.dir/mergeTrees.cpp.o.d -o CMakeFiles/Simple.dir/mergeTrees.cpp.o -c /tmp/tmp.Ket0Nh1AIX/mergeTrees.cpp
 
-CMakeFiles/Simple.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Simple.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.Ket0Nh1AIX/main.cpp > CMakeFiles/Simple.dir/main.cpp.i
+CMakeFiles/Simple.dir/mergeTrees.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Simple.dir/mergeTrees.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.Ket0Nh1AIX/mergeTrees.cpp > CMakeFiles/Simple.dir/mergeTrees.cpp.i
 
-CMakeFiles/Simple.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Simple.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.Ket0Nh1AIX/main.cpp -o CMakeFiles/Simple.dir/main.cpp.s
-
-CMakeFiles/Simple.dir/diameterOfBinaryTree.cpp.o: CMakeFiles/Simple.dir/flags.make
-CMakeFiles/Simple.dir/diameterOfBinaryTree.cpp.o: ../diameterOfBinaryTree.cpp
-CMakeFiles/Simple.dir/diameterOfBinaryTree.cpp.o: CMakeFiles/Simple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.Ket0Nh1AIX/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Simple.dir/diameterOfBinaryTree.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Simple.dir/diameterOfBinaryTree.cpp.o -MF CMakeFiles/Simple.dir/diameterOfBinaryTree.cpp.o.d -o CMakeFiles/Simple.dir/diameterOfBinaryTree.cpp.o -c /tmp/tmp.Ket0Nh1AIX/diameterOfBinaryTree.cpp
-
-CMakeFiles/Simple.dir/diameterOfBinaryTree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Simple.dir/diameterOfBinaryTree.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.Ket0Nh1AIX/diameterOfBinaryTree.cpp > CMakeFiles/Simple.dir/diameterOfBinaryTree.cpp.i
-
-CMakeFiles/Simple.dir/diameterOfBinaryTree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Simple.dir/diameterOfBinaryTree.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.Ket0Nh1AIX/diameterOfBinaryTree.cpp -o CMakeFiles/Simple.dir/diameterOfBinaryTree.cpp.s
+CMakeFiles/Simple.dir/mergeTrees.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Simple.dir/mergeTrees.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.Ket0Nh1AIX/mergeTrees.cpp -o CMakeFiles/Simple.dir/mergeTrees.cpp.s
 
 # Object files for target Simple
 Simple_OBJECTS = \
-"CMakeFiles/Simple.dir/main.cpp.o" \
-"CMakeFiles/Simple.dir/diameterOfBinaryTree.cpp.o"
+"CMakeFiles/Simple.dir/mergeTrees.cpp.o"
 
 # External object files for target Simple
 Simple_EXTERNAL_OBJECTS =
 
-Simple: CMakeFiles/Simple.dir/main.cpp.o
-Simple: CMakeFiles/Simple.dir/diameterOfBinaryTree.cpp.o
+Simple: CMakeFiles/Simple.dir/mergeTrees.cpp.o
 Simple: CMakeFiles/Simple.dir/build.make
 Simple: CMakeFiles/Simple.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/tmp.Ket0Nh1AIX/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Simple"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/tmp.Ket0Nh1AIX/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Simple"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Simple.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
