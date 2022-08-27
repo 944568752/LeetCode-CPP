@@ -4,6 +4,6 @@ project(Medium)
 set(CMAKE_CXX_STANDARD 14)
 
 # add_executable(Medium main.cpp)
-add_executable(Medium addTwoNumbers.cpp)
-
+# add_executable(Medium addTwoNumbers.cpp)
+add_executable(Medium lengthOfLongestSubstring.cpp)
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Medium.dir/addTwoNumbers.cpp.o"
-  "CMakeFiles/Medium.dir/addTwoNumbers.cpp.o.d"
+  "CMakeFiles/Medium.dir/lengthOfLongestSubstring.cpp.o"
+  "CMakeFiles/Medium.dir/lengthOfLongestSubstring.cpp.o.d"
   "Medium"
   "Medium.pdb"
 )

@@ -129,29 +129,29 @@ Medium/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/build
 .PHONY : Medium/fast
 
-addTwoNumbers.o: addTwoNumbers.cpp.o
-.PHONY : addTwoNumbers.o
+lengthOfLongestSubstring.o: lengthOfLongestSubstring.cpp.o
+.PHONY : lengthOfLongestSubstring.o
 
 # target to build an object file
-addTwoNumbers.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/addTwoNumbers.cpp.o
-.PHONY : addTwoNumbers.cpp.o
+lengthOfLongestSubstring.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/lengthOfLongestSubstring.cpp.o
+.PHONY : lengthOfLongestSubstring.cpp.o
 
-addTwoNumbers.i: addTwoNumbers.cpp.i
-.PHONY : addTwoNumbers.i
+lengthOfLongestSubstring.i: lengthOfLongestSubstring.cpp.i
+.PHONY : lengthOfLongestSubstring.i
 
 # target to preprocess a source file
-addTwoNumbers.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/addTwoNumbers.cpp.i
-.PHONY : addTwoNumbers.cpp.i
+lengthOfLongestSubstring.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/lengthOfLongestSubstring.cpp.i
+.PHONY : lengthOfLongestSubstring.cpp.i
 
-addTwoNumbers.s: addTwoNumbers.cpp.s
-.PHONY : addTwoNumbers.s
+lengthOfLongestSubstring.s: lengthOfLongestSubstring.cpp.s
+.PHONY : lengthOfLongestSubstring.s
 
 # target to generate assembly for a file
-addTwoNumbers.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/addTwoNumbers.cpp.s
-.PHONY : addTwoNumbers.cpp.s
+lengthOfLongestSubstring.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/lengthOfLongestSubstring.cpp.s
+.PHONY : lengthOfLongestSubstring.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Medium"
-	@echo "... addTwoNumbers.o"
-	@echo "... addTwoNumbers.i"
-	@echo "... addTwoNumbers.s"
+	@echo "... lengthOfLongestSubstring.o"
+	@echo "... lengthOfLongestSubstring.i"
+	@echo "... lengthOfLongestSubstring.s"
 .PHONY : help
 
 
