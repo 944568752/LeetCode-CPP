@@ -129,29 +129,29 @@ Medium/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/build
 .PHONY : Medium/fast
 
-lengthOfLongestSubstring.o: lengthOfLongestSubstring.cpp.o
-.PHONY : lengthOfLongestSubstring.o
+maxArea.o: maxArea.cpp.o
+.PHONY : maxArea.o
 
 # target to build an object file
-lengthOfLongestSubstring.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/lengthOfLongestSubstring.cpp.o
-.PHONY : lengthOfLongestSubstring.cpp.o
+maxArea.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/maxArea.cpp.o
+.PHONY : maxArea.cpp.o
 
-lengthOfLongestSubstring.i: lengthOfLongestSubstring.cpp.i
-.PHONY : lengthOfLongestSubstring.i
+maxArea.i: maxArea.cpp.i
+.PHONY : maxArea.i
 
 # target to preprocess a source file
-lengthOfLongestSubstring.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/lengthOfLongestSubstring.cpp.i
-.PHONY : lengthOfLongestSubstring.cpp.i
+maxArea.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/maxArea.cpp.i
+.PHONY : maxArea.cpp.i
 
-lengthOfLongestSubstring.s: lengthOfLongestSubstring.cpp.s
-.PHONY : lengthOfLongestSubstring.s
+maxArea.s: maxArea.cpp.s
+.PHONY : maxArea.s
 
 # target to generate assembly for a file
-lengthOfLongestSubstring.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/lengthOfLongestSubstring.cpp.s
-.PHONY : lengthOfLongestSubstring.cpp.s
+maxArea.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/maxArea.cpp.s
+.PHONY : maxArea.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Medium"
-	@echo "... lengthOfLongestSubstring.o"
-	@echo "... lengthOfLongestSubstring.i"
-	@echo "... lengthOfLongestSubstring.s"
+	@echo "... maxArea.o"
+	@echo "... maxArea.i"
+	@echo "... maxArea.s"
 .PHONY : help
 
 
