@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG "CMakeFiles/Medium.dir/threeSum(new).cpp.o" -o Medium 

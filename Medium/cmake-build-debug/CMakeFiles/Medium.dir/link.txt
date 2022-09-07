@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/Medium.dir/maxArea.cpp.o -o Medium 
+/usr/bin/c++ -g CMakeFiles/Medium.dir/threeSum.cpp.o -o Medium 

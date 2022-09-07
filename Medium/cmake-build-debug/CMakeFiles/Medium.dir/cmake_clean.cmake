@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Medium.dir/maxArea.cpp.o"
-  "CMakeFiles/Medium.dir/maxArea.cpp.o.d"
+  "CMakeFiles/Medium.dir/threeSum.cpp.o"
+  "CMakeFiles/Medium.dir/threeSum.cpp.o.d"
   "Medium"
   "Medium.pdb"
 )
