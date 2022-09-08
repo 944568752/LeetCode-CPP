@@ -129,29 +129,29 @@ Medium/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/build
 .PHONY : Medium/fast
 
-threeSum(new).o: threeSum(new).cpp.o
-.PHONY : threeSum(new).o
+letterCombinations.o: letterCombinations.cpp.o
+.PHONY : letterCombinations.o
 
 # target to build an object file
-threeSum(new).cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make "CMakeFiles/Medium.dir/threeSum(new).cpp.o"
-.PHONY : threeSum(new).cpp.o
+letterCombinations.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/letterCombinations.cpp.o
+.PHONY : letterCombinations.cpp.o
 
-threeSum(new).i: threeSum(new).cpp.i
-.PHONY : threeSum(new).i
+letterCombinations.i: letterCombinations.cpp.i
+.PHONY : letterCombinations.i
 
 # target to preprocess a source file
-threeSum(new).cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make "CMakeFiles/Medium.dir/threeSum(new).cpp.i"
-.PHONY : threeSum(new).cpp.i
+letterCombinations.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/letterCombinations.cpp.i
+.PHONY : letterCombinations.cpp.i
 
-threeSum(new).s: threeSum(new).cpp.s
-.PHONY : threeSum(new).s
+letterCombinations.s: letterCombinations.cpp.s
+.PHONY : letterCombinations.s
 
 # target to generate assembly for a file
-threeSum(new).cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make "CMakeFiles/Medium.dir/threeSum(new).cpp.s"
-.PHONY : threeSum(new).cpp.s
+letterCombinations.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/letterCombinations.cpp.s
+.PHONY : letterCombinations.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Medium"
-	@echo "... threeSum(new).o"
-	@echo "... threeSum(new).i"
-	@echo "... threeSum(new).s"
+	@echo "... letterCombinations.o"
+	@echo "... letterCombinations.i"
+	@echo "... letterCombinations.s"
 .PHONY : help
 
 

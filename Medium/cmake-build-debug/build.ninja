@@ -37,7 +37,7 @@ include CMakeFiles/rules.ninja
 # =============================================================================
 
 #############################################
-# Logical path to working directory; prefix for absolute paths.
+# Logical cache to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = E$:/Git/LeetCode-CPP/Medium/cmake-build-debug/
 # =============================================================================

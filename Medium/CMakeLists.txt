@@ -9,4 +9,7 @@ set(CMAKE_CXX_STANDARD 14)
 # add_executable(Medium longestPalindrome.cpp)
 # add_executable(Medium maxArea.cpp)
 # add_executable(Medium threeSum.cpp "threeSum(new).cpp")
-add_executable(Medium "threeSum(new).cpp")
+# add_executable(Medium "threeSum(new).cpp" letterCombinations.cpp)
+add_executable(Medium letterCombinations.cpp)
+
+

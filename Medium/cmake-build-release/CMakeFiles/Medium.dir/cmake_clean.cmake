@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Medium.dir/threeSum(new).cpp.o"
-  "CMakeFiles/Medium.dir/threeSum(new).cpp.o.d"
+  "CMakeFiles/Medium.dir/letterCombinations.cpp.o"
+  "CMakeFiles/Medium.dir/letterCombinations.cpp.o.d"
   "Medium"
   "Medium.pdb"
 )
