@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Medium.dir/letterCombinations.cpp.o"
-  "CMakeFiles/Medium.dir/letterCombinations.cpp.o.d"
+  "CMakeFiles/Medium.dir/removeNthFromEnd.cpp.o"
+  "CMakeFiles/Medium.dir/removeNthFromEnd.cpp.o.d"
   "Medium"
   "Medium.pdb"
 )

@@ -10,6 +10,9 @@ set(CMAKE_CXX_STANDARD 14)
 # add_executable(Medium maxArea.cpp)
 # add_executable(Medium threeSum.cpp "threeSum(new).cpp")
 # add_executable(Medium "threeSum(new).cpp" letterCombinations.cpp)
-add_executable(Medium letterCombinations.cpp)
+# add_executable(Medium letterCombinations.cpp removeNthFromEnd.cpp)
+add_executable(Medium removeNthFromEnd.cpp)
+
+
 
 

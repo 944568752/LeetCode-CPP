@@ -129,29 +129,29 @@ Medium/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/build
 .PHONY : Medium/fast
 
-letterCombinations.o: letterCombinations.cpp.o
-.PHONY : letterCombinations.o
+removeNthFromEnd.o: removeNthFromEnd.cpp.o
+.PHONY : removeNthFromEnd.o
 
 # target to build an object file
-letterCombinations.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/letterCombinations.cpp.o
-.PHONY : letterCombinations.cpp.o
+removeNthFromEnd.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/removeNthFromEnd.cpp.o
+.PHONY : removeNthFromEnd.cpp.o
 
-letterCombinations.i: letterCombinations.cpp.i
-.PHONY : letterCombinations.i
+removeNthFromEnd.i: removeNthFromEnd.cpp.i
+.PHONY : removeNthFromEnd.i
 
 # target to preprocess a source file
-letterCombinations.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/letterCombinations.cpp.i
-.PHONY : letterCombinations.cpp.i
+removeNthFromEnd.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/removeNthFromEnd.cpp.i
+.PHONY : removeNthFromEnd.cpp.i
 
-letterCombinations.s: letterCombinations.cpp.s
-.PHONY : letterCombinations.s
+removeNthFromEnd.s: removeNthFromEnd.cpp.s
+.PHONY : removeNthFromEnd.s
 
 # target to generate assembly for a file
-letterCombinations.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/letterCombinations.cpp.s
-.PHONY : letterCombinations.cpp.s
+removeNthFromEnd.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/removeNthFromEnd.cpp.s
+.PHONY : removeNthFromEnd.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Medium"
-	@echo "... letterCombinations.o"
-	@echo "... letterCombinations.i"
-	@echo "... letterCombinations.s"
+	@echo "... removeNthFromEnd.o"
+	@echo "... removeNthFromEnd.i"
+	@echo "... removeNthFromEnd.s"
 .PHONY : help
 
 
