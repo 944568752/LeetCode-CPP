@@ -129,29 +129,29 @@ Medium/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/build
 .PHONY : Medium/fast
 
-removeNthFromEnd.o: removeNthFromEnd.cpp.o
-.PHONY : removeNthFromEnd.o
+nextPermutation.o: nextPermutation.cpp.o
+.PHONY : nextPermutation.o
 
 # target to build an object file
-removeNthFromEnd.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/removeNthFromEnd.cpp.o
-.PHONY : removeNthFromEnd.cpp.o
+nextPermutation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/nextPermutation.cpp.o
+.PHONY : nextPermutation.cpp.o
 
-removeNthFromEnd.i: removeNthFromEnd.cpp.i
-.PHONY : removeNthFromEnd.i
+nextPermutation.i: nextPermutation.cpp.i
+.PHONY : nextPermutation.i
 
 # target to preprocess a source file
-removeNthFromEnd.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/removeNthFromEnd.cpp.i
-.PHONY : removeNthFromEnd.cpp.i
+nextPermutation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/nextPermutation.cpp.i
+.PHONY : nextPermutation.cpp.i
 
-removeNthFromEnd.s: removeNthFromEnd.cpp.s
-.PHONY : removeNthFromEnd.s
+nextPermutation.s: nextPermutation.cpp.s
+.PHONY : nextPermutation.s
 
 # target to generate assembly for a file
-removeNthFromEnd.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/removeNthFromEnd.cpp.s
-.PHONY : removeNthFromEnd.cpp.s
+nextPermutation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/nextPermutation.cpp.s
+.PHONY : nextPermutation.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Medium"
-	@echo "... removeNthFromEnd.o"
-	@echo "... removeNthFromEnd.i"
-	@echo "... removeNthFromEnd.s"
+	@echo "... nextPermutation.o"
+	@echo "... nextPermutation.i"
+	@echo "... nextPermutation.s"
 .PHONY : help
 
 

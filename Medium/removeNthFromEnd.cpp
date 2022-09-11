@@ -8,6 +8,7 @@
 
 #include<iostream>
 #include<stack>
+#include<iterator>
 
 using namespace std;
 
@@ -161,6 +162,11 @@ public:
 
 
 int main(){
+
+    string a="test123@@@@";
+
+    string::iterator b=a.begin();
+
 
 
     cout<<"Hello removeNthFromEnd !"<<endl;

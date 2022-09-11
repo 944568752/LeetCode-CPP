@@ -1,1 +1,1 @@
-/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/Medium.dir/removeNthFromEnd.cpp.o -o Medium 
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/Medium.dir/nextPermutation.cpp.o -o Medium 

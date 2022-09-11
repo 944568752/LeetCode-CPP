@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Medium.dir/removeNthFromEnd.cpp.o"
-  "CMakeFiles/Medium.dir/removeNthFromEnd.cpp.o.d"
+  "CMakeFiles/Medium.dir/nextPermutation.cpp.o"
+  "CMakeFiles/Medium.dir/nextPermutation.cpp.o.d"
   "Medium"
   "Medium.pdb"
 )
