@@ -129,29 +129,29 @@ Medium/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/build
 .PHONY : Medium/fast
 
-nextPermutation.o: nextPermutation.cpp.o
-.PHONY : nextPermutation.o
+search.o: search.cpp.o
+.PHONY : search.o
 
 # target to build an object file
-nextPermutation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/nextPermutation.cpp.o
-.PHONY : nextPermutation.cpp.o
+search.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/search.cpp.o
+.PHONY : search.cpp.o
 
-nextPermutation.i: nextPermutation.cpp.i
-.PHONY : nextPermutation.i
+search.i: search.cpp.i
+.PHONY : search.i
 
 # target to preprocess a source file
-nextPermutation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/nextPermutation.cpp.i
-.PHONY : nextPermutation.cpp.i
+search.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/search.cpp.i
+.PHONY : search.cpp.i
 
-nextPermutation.s: nextPermutation.cpp.s
-.PHONY : nextPermutation.s
+search.s: search.cpp.s
+.PHONY : search.s
 
 # target to generate assembly for a file
-nextPermutation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/nextPermutation.cpp.s
-.PHONY : nextPermutation.cpp.s
+search.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/search.cpp.s
+.PHONY : search.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Medium"
-	@echo "... nextPermutation.o"
-	@echo "... nextPermutation.i"
-	@echo "... nextPermutation.s"
+	@echo "... search.o"
+	@echo "... search.i"
+	@echo "... search.s"
 .PHONY : help
 
 

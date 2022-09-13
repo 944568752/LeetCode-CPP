@@ -13,7 +13,11 @@ set(CMAKE_CXX_STANDARD 14)
 # add_executable(Medium letterCombinations.cpp removeNthFromEnd.cpp)
 # add_executable(Medium removeNthFromEnd.cpp generateParenthesis.cpp)
 # add_executable(Medium generateParenthesis.cpp nextPermutation.cpp)
-add_executable(Medium nextPermutation.cpp)
+# add_executable(Medium nextPermutation.cpp search.cpp)
+add_executable(Medium search.cpp)
+
+
+
 
 
 
