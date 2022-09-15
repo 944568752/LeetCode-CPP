@@ -14,9 +14,10 @@ set(CMAKE_CXX_STANDARD 14)
 # add_executable(Medium removeNthFromEnd.cpp generateParenthesis.cpp)
 # add_executable(Medium generateParenthesis.cpp nextPermutation.cpp)
 # add_executable(Medium nextPermutation.cpp search.cpp)
-add_executable(Medium search.cpp)
-
-
+# add_executable(Medium search.cpp searchRange.cpp)
+# add_executable(Medium searchRange.cpp toySoldiers.cpp)
+# add_executable(Medium toySoldiers.cpp)
+add_executable(Medium searchRange.cpp)
 
 
 

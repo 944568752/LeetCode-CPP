@@ -1,1 +1,1 @@
-/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/Medium.dir/search.cpp.o -o Medium 
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/Medium.dir/searchRange.cpp.o -o Medium 

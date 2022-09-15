@@ -129,29 +129,29 @@ Medium/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/build
 .PHONY : Medium/fast
 
-search.o: search.cpp.o
-.PHONY : search.o
+searchRange.o: searchRange.cpp.o
+.PHONY : searchRange.o
 
 # target to build an object file
-search.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/search.cpp.o
-.PHONY : search.cpp.o
+searchRange.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/searchRange.cpp.o
+.PHONY : searchRange.cpp.o
 
-search.i: search.cpp.i
-.PHONY : search.i
+searchRange.i: searchRange.cpp.i
+.PHONY : searchRange.i
 
 # target to preprocess a source file
-search.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/search.cpp.i
-.PHONY : search.cpp.i
+searchRange.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/searchRange.cpp.i
+.PHONY : searchRange.cpp.i
 
-search.s: search.cpp.s
-.PHONY : search.s
+searchRange.s: searchRange.cpp.s
+.PHONY : searchRange.s
 
 # target to generate assembly for a file
-search.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/search.cpp.s
-.PHONY : search.cpp.s
+searchRange.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/searchRange.cpp.s
+.PHONY : searchRange.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Medium"
-	@echo "... search.o"
-	@echo "... search.i"
-	@echo "... search.s"
+	@echo "... searchRange.o"
+	@echo "... searchRange.i"
+	@echo "... searchRange.s"
 .PHONY : help
 
 
