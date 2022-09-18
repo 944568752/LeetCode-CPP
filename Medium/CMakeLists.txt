@@ -17,7 +17,14 @@ set(CMAKE_CXX_STANDARD 14)
 # add_executable(Medium search.cpp searchRange.cpp)
 # add_executable(Medium searchRange.cpp toySoldiers.cpp)
 # add_executable(Medium toySoldiers.cpp)
-add_executable(Medium searchRange.cpp)
+# add_executable(Medium searchRange.cpp Alibaba.cpp)
+# add_executable(Medium Alibaba.cpp combinationSum.cpp)
+# add_executable(Medium combinationSum.cpp permute.cpp)
+# add_executable(Medium permute.cpp rotate.cpp)
+add_executable(Medium rotate.cpp)
+
+
+
 
 
 

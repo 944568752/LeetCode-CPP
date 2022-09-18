@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Medium.dir/searchRange.cpp.o"
-  "CMakeFiles/Medium.dir/searchRange.cpp.o.d"
+  "CMakeFiles/Medium.dir/rotate.cpp.o"
+  "CMakeFiles/Medium.dir/rotate.cpp.o.d"
   "Medium"
   "Medium.pdb"
 )
