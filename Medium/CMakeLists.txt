@@ -25,7 +25,12 @@ set(CMAKE_CXX_STANDARD 14)
 # add_executable(Medium groupAnagrams.cpp Meide_01.cpp)
 # add_executable(Medium Meide_01.cpp Meide_02.cpp)
 # add_executable(Medium Meide_02.cpp canJump.cpp)
-add_executable(Medium canJump.cpp)
+# add_executable(Medium canJump.cpp merge.cpp)?
+# add_executable(Medium merge.cpp uniquePaths.cpp)
+add_executable(Medium uniquePaths.cpp)
+
+
+
 
 
 

@@ -129,29 +129,29 @@ Medium/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/build
 .PHONY : Medium/fast
 
-canJump.o: canJump.cpp.o
-.PHONY : canJump.o
+uniquePaths.o: uniquePaths.cpp.o
+.PHONY : uniquePaths.o
 
 # target to build an object file
-canJump.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/canJump.cpp.o
-.PHONY : canJump.cpp.o
+uniquePaths.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/uniquePaths.cpp.o
+.PHONY : uniquePaths.cpp.o
 
-canJump.i: canJump.cpp.i
-.PHONY : canJump.i
+uniquePaths.i: uniquePaths.cpp.i
+.PHONY : uniquePaths.i
 
 # target to preprocess a source file
-canJump.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/canJump.cpp.i
-.PHONY : canJump.cpp.i
+uniquePaths.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/uniquePaths.cpp.i
+.PHONY : uniquePaths.cpp.i
 
-canJump.s: canJump.cpp.s
-.PHONY : canJump.s
+uniquePaths.s: uniquePaths.cpp.s
+.PHONY : uniquePaths.s
 
 # target to generate assembly for a file
-canJump.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/canJump.cpp.s
-.PHONY : canJump.cpp.s
+uniquePaths.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/uniquePaths.cpp.s
+.PHONY : uniquePaths.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Medium"
-	@echo "... canJump.o"
-	@echo "... canJump.i"
-	@echo "... canJump.s"
+	@echo "... uniquePaths.o"
+	@echo "... uniquePaths.i"
+	@echo "... uniquePaths.s"
 .PHONY : help
 
 

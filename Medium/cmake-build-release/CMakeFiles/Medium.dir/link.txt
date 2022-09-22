@@ -1,1 +1,1 @@
-/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/Medium.dir/canJump.cpp.o -o Medium 
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/Medium.dir/uniquePaths.cpp.o -o Medium 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Medium.dir/canJump.cpp.o"
-  "CMakeFiles/Medium.dir/canJump.cpp.o.d"
+  "CMakeFiles/Medium.dir/uniquePaths.cpp.o"
+  "CMakeFiles/Medium.dir/uniquePaths.cpp.o.d"
   "Medium"
   "Medium.pdb"
 )
