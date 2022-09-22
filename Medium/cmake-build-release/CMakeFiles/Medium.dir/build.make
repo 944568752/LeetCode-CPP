@@ -69,28 +69,28 @@ include CMakeFiles/Medium.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Medium.dir/flags.make
 
-CMakeFiles/Medium.dir/rotate.cpp.o: CMakeFiles/Medium.dir/flags.make
-CMakeFiles/Medium.dir/rotate.cpp.o: ../rotate.cpp
-CMakeFiles/Medium.dir/rotate.cpp.o: CMakeFiles/Medium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.mnbFSZZwbT/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Medium.dir/rotate.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Medium.dir/rotate.cpp.o -MF CMakeFiles/Medium.dir/rotate.cpp.o.d -o CMakeFiles/Medium.dir/rotate.cpp.o -c /tmp/tmp.mnbFSZZwbT/rotate.cpp
+CMakeFiles/Medium.dir/canJump.cpp.o: CMakeFiles/Medium.dir/flags.make
+CMakeFiles/Medium.dir/canJump.cpp.o: ../canJump.cpp
+CMakeFiles/Medium.dir/canJump.cpp.o: CMakeFiles/Medium.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.mnbFSZZwbT/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Medium.dir/canJump.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Medium.dir/canJump.cpp.o -MF CMakeFiles/Medium.dir/canJump.cpp.o.d -o CMakeFiles/Medium.dir/canJump.cpp.o -c /tmp/tmp.mnbFSZZwbT/canJump.cpp
 
-CMakeFiles/Medium.dir/rotate.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Medium.dir/rotate.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.mnbFSZZwbT/rotate.cpp > CMakeFiles/Medium.dir/rotate.cpp.i
+CMakeFiles/Medium.dir/canJump.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Medium.dir/canJump.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.mnbFSZZwbT/canJump.cpp > CMakeFiles/Medium.dir/canJump.cpp.i
 
-CMakeFiles/Medium.dir/rotate.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Medium.dir/rotate.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.mnbFSZZwbT/rotate.cpp -o CMakeFiles/Medium.dir/rotate.cpp.s
+CMakeFiles/Medium.dir/canJump.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Medium.dir/canJump.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.mnbFSZZwbT/canJump.cpp -o CMakeFiles/Medium.dir/canJump.cpp.s
 
 # Object files for target Medium
 Medium_OBJECTS = \
-"CMakeFiles/Medium.dir/rotate.cpp.o"
+"CMakeFiles/Medium.dir/canJump.cpp.o"
 
 # External object files for target Medium
 Medium_EXTERNAL_OBJECTS =
 
-Medium: CMakeFiles/Medium.dir/rotate.cpp.o
+Medium: CMakeFiles/Medium.dir/canJump.cpp.o
 Medium: CMakeFiles/Medium.dir/build.make
 Medium: CMakeFiles/Medium.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/tmp.mnbFSZZwbT/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Medium"

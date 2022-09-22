@@ -129,29 +129,29 @@ Medium/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/build
 .PHONY : Medium/fast
 
-rotate.o: rotate.cpp.o
-.PHONY : rotate.o
+canJump.o: canJump.cpp.o
+.PHONY : canJump.o
 
 # target to build an object file
-rotate.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/rotate.cpp.o
-.PHONY : rotate.cpp.o
+canJump.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/canJump.cpp.o
+.PHONY : canJump.cpp.o
 
-rotate.i: rotate.cpp.i
-.PHONY : rotate.i
+canJump.i: canJump.cpp.i
+.PHONY : canJump.i
 
 # target to preprocess a source file
-rotate.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/rotate.cpp.i
-.PHONY : rotate.cpp.i
+canJump.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/canJump.cpp.i
+.PHONY : canJump.cpp.i
 
-rotate.s: rotate.cpp.s
-.PHONY : rotate.s
+canJump.s: canJump.cpp.s
+.PHONY : canJump.s
 
 # target to generate assembly for a file
-rotate.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/rotate.cpp.s
-.PHONY : rotate.cpp.s
+canJump.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/canJump.cpp.s
+.PHONY : canJump.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Medium"
-	@echo "... rotate.o"
-	@echo "... rotate.i"
-	@echo "... rotate.s"
+	@echo "... canJump.o"
+	@echo "... canJump.i"
+	@echo "... canJump.s"
 .PHONY : help
 
 

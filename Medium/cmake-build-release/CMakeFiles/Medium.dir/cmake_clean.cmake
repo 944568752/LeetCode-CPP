@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Medium.dir/rotate.cpp.o"
-  "CMakeFiles/Medium.dir/rotate.cpp.o.d"
+  "CMakeFiles/Medium.dir/canJump.cpp.o"
+  "CMakeFiles/Medium.dir/canJump.cpp.o.d"
   "Medium"
   "Medium.pdb"
 )

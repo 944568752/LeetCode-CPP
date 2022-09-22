@@ -21,7 +21,11 @@ set(CMAKE_CXX_STANDARD 14)
 # add_executable(Medium Alibaba.cpp combinationSum.cpp)
 # add_executable(Medium combinationSum.cpp permute.cpp)
 # add_executable(Medium permute.cpp rotate.cpp)
-add_executable(Medium rotate.cpp)
+# add_executable(Medium rotate.cpp groupAnagrams.cpp)
+# add_executable(Medium groupAnagrams.cpp Meide_01.cpp)
+# add_executable(Medium Meide_01.cpp Meide_02.cpp)
+# add_executable(Medium Meide_02.cpp canJump.cpp)
+add_executable(Medium canJump.cpp)
 
 
 
