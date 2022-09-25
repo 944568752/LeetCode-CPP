@@ -129,29 +129,29 @@ Medium/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/build
 .PHONY : Medium/fast
 
-uniquePaths.o: uniquePaths.cpp.o
-.PHONY : uniquePaths.o
+sortColors.o: sortColors.cpp.o
+.PHONY : sortColors.o
 
 # target to build an object file
-uniquePaths.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/uniquePaths.cpp.o
-.PHONY : uniquePaths.cpp.o
+sortColors.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/sortColors.cpp.o
+.PHONY : sortColors.cpp.o
 
-uniquePaths.i: uniquePaths.cpp.i
-.PHONY : uniquePaths.i
+sortColors.i: sortColors.cpp.i
+.PHONY : sortColors.i
 
 # target to preprocess a source file
-uniquePaths.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/uniquePaths.cpp.i
-.PHONY : uniquePaths.cpp.i
+sortColors.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/sortColors.cpp.i
+.PHONY : sortColors.cpp.i
 
-uniquePaths.s: uniquePaths.cpp.s
-.PHONY : uniquePaths.s
+sortColors.s: sortColors.cpp.s
+.PHONY : sortColors.s
 
 # target to generate assembly for a file
-uniquePaths.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/uniquePaths.cpp.s
-.PHONY : uniquePaths.cpp.s
+sortColors.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/sortColors.cpp.s
+.PHONY : sortColors.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Medium"
-	@echo "... uniquePaths.o"
-	@echo "... uniquePaths.i"
-	@echo "... uniquePaths.s"
+	@echo "... sortColors.o"
+	@echo "... sortColors.i"
+	@echo "... sortColors.s"
 .PHONY : help
 
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Medium.dir/uniquePaths.cpp.o"
-  "CMakeFiles/Medium.dir/uniquePaths.cpp.o.d"
+  "CMakeFiles/Medium.dir/sortColors.cpp.o"
+  "CMakeFiles/Medium.dir/sortColors.cpp.o.d"
   "Medium"
   "Medium.pdb"
 )

@@ -27,7 +27,9 @@ set(CMAKE_CXX_STANDARD 14)
 # add_executable(Medium Meide_02.cpp canJump.cpp)
 # add_executable(Medium canJump.cpp merge.cpp)?
 # add_executable(Medium merge.cpp uniquePaths.cpp)
-add_executable(Medium uniquePaths.cpp)
+# add_executable(Medium uniquePaths.cpp minPathSum.cpp)
+# add_executable(Medium minPathSum.cpp sortColors.cpp)
+add_executable(Medium sortColors.cpp)
 
 
 
