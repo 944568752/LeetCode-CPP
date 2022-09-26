@@ -69,28 +69,28 @@ include CMakeFiles/Medium.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Medium.dir/flags.make
 
-CMakeFiles/Medium.dir/sortColors.cpp.o: CMakeFiles/Medium.dir/flags.make
-CMakeFiles/Medium.dir/sortColors.cpp.o: ../sortColors.cpp
-CMakeFiles/Medium.dir/sortColors.cpp.o: CMakeFiles/Medium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.mnbFSZZwbT/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Medium.dir/sortColors.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Medium.dir/sortColors.cpp.o -MF CMakeFiles/Medium.dir/sortColors.cpp.o.d -o CMakeFiles/Medium.dir/sortColors.cpp.o -c /tmp/tmp.mnbFSZZwbT/sortColors.cpp
+CMakeFiles/Medium.dir/exist.cpp.o: CMakeFiles/Medium.dir/flags.make
+CMakeFiles/Medium.dir/exist.cpp.o: ../exist.cpp
+CMakeFiles/Medium.dir/exist.cpp.o: CMakeFiles/Medium.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.mnbFSZZwbT/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Medium.dir/exist.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Medium.dir/exist.cpp.o -MF CMakeFiles/Medium.dir/exist.cpp.o.d -o CMakeFiles/Medium.dir/exist.cpp.o -c /tmp/tmp.mnbFSZZwbT/exist.cpp
 
-CMakeFiles/Medium.dir/sortColors.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Medium.dir/sortColors.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.mnbFSZZwbT/sortColors.cpp > CMakeFiles/Medium.dir/sortColors.cpp.i
+CMakeFiles/Medium.dir/exist.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Medium.dir/exist.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.mnbFSZZwbT/exist.cpp > CMakeFiles/Medium.dir/exist.cpp.i
 
-CMakeFiles/Medium.dir/sortColors.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Medium.dir/sortColors.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.mnbFSZZwbT/sortColors.cpp -o CMakeFiles/Medium.dir/sortColors.cpp.s
+CMakeFiles/Medium.dir/exist.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Medium.dir/exist.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.mnbFSZZwbT/exist.cpp -o CMakeFiles/Medium.dir/exist.cpp.s
 
 # Object files for target Medium
 Medium_OBJECTS = \
-"CMakeFiles/Medium.dir/sortColors.cpp.o"
+"CMakeFiles/Medium.dir/exist.cpp.o"
 
 # External object files for target Medium
 Medium_EXTERNAL_OBJECTS =
 
-Medium: CMakeFiles/Medium.dir/sortColors.cpp.o
+Medium: CMakeFiles/Medium.dir/exist.cpp.o
 Medium: CMakeFiles/Medium.dir/build.make
 Medium: CMakeFiles/Medium.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/tmp.mnbFSZZwbT/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Medium"

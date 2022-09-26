@@ -129,29 +129,29 @@ Medium/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/build
 .PHONY : Medium/fast
 
-sortColors.o: sortColors.cpp.o
-.PHONY : sortColors.o
+exist.o: exist.cpp.o
+.PHONY : exist.o
 
 # target to build an object file
-sortColors.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/sortColors.cpp.o
-.PHONY : sortColors.cpp.o
+exist.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/exist.cpp.o
+.PHONY : exist.cpp.o
 
-sortColors.i: sortColors.cpp.i
-.PHONY : sortColors.i
+exist.i: exist.cpp.i
+.PHONY : exist.i
 
 # target to preprocess a source file
-sortColors.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/sortColors.cpp.i
-.PHONY : sortColors.cpp.i
+exist.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/exist.cpp.i
+.PHONY : exist.cpp.i
 
-sortColors.s: sortColors.cpp.s
-.PHONY : sortColors.s
+exist.s: exist.cpp.s
+.PHONY : exist.s
 
 # target to generate assembly for a file
-sortColors.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/sortColors.cpp.s
-.PHONY : sortColors.cpp.s
+exist.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Medium.dir/build.make CMakeFiles/Medium.dir/exist.cpp.s
+.PHONY : exist.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Medium"
-	@echo "... sortColors.o"
-	@echo "... sortColors.i"
-	@echo "... sortColors.s"
+	@echo "... exist.o"
+	@echo "... exist.i"
+	@echo "... exist.s"
 .PHONY : help
 
 

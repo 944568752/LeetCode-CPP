@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Medium.dir/sortColors.cpp.o"
-  "CMakeFiles/Medium.dir/sortColors.cpp.o.d"
+  "CMakeFiles/Medium.dir/exist.cpp.o"
+  "CMakeFiles/Medium.dir/exist.cpp.o.d"
   "Medium"
   "Medium.pdb"
 )

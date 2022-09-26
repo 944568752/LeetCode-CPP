@@ -1,1 +1,1 @@
-/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/Medium.dir/sortColors.cpp.o -o Medium 
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/Medium.dir/exist.cpp.o -o Medium 
